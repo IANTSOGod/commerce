@@ -1,0 +1,23 @@
+.main-title{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-title img{
+    width: 300px;
+    height: auto;
+
+}
+.items-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.label{
+    font-family: 'customCursive';
+    font-size: 80px;
+    padding-left: 0px;
+}

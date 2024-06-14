@@ -1,0 +1,30 @@
+{
+    "Chiot": {
+        "titre": "Chiot Labrador",
+        "description": "Adorable chiot Labrador Retriever à la recherche d'une famille aimante. Ce compagnon énergique et affectueux est issu de lignées de qualité et est prêt à apporter joie et bonheur dans votre foyer. Vacciné, vermifugé et examiné par notre vétérinaire, ce chiot est en parfaite santé et attend avec impatience de vous rencontrer !",
+        "img-url": "coup-mise-au-point-peu-profonde-mignon-chiot-golden-retriever-assis-sol-herbe.jpg",
+        "nombre": "12",
+        "prix": "800€"
+    },
+    "Lapin": {
+        "titre": "Lapin Hollandais",
+        "description": "  Adorable lapin nain hollandais à la recherche d'un foyer aimant ! Ce petit compagnon est doux, sociable et facile à entretenir. Idéal pour les familles ou les individus à la recherche d'un animal de compagnie calme et affectueux. Notre lapin est en bonne santé, habitué à être manipulé et prêt à rejoindre votre maison dès maintenant !",
+        "img-url": "lapin.jpg",
+        "nombre": "12",
+        "prix": "50€"
+    },
+    "Chat": {
+        "titre": "Chaton Maine",
+        "description": " Magnifique chaton Maine Coon disponible dès maintenant ! Cette race majestueuse est connue pour son tempérament doux, son intelligence et sa taille imposante. Nos chatons sont élevés dans un environnement familial et sont bien socialisés. Vacciné, déparasité et doté d'un pedigree, ce chaton sera le compagnon idéal pour votre maison.",
+        "img-url": "maine-coon-histoire.jpg",
+        "nombre": "10",
+        "prix": "600€"
+    },
+    "Perroquet": {
+        "titre": "Perroquet Gris",
+        "description": "Superbe perroquet Gris du Gabon à vendre ! Cette espèce intelligente et charmante est réputée pour son excellente capacité de parole et son lien fort avec ses propriétaires. Notre perroquet est élevé avec amour et attention, et est prêt à enrichir votre vie avec ses chants mélodieux et son esprit vif.",
+        "img-url": "perroquet.jpg",
+        "nombre": "10",
+        "prix": "1200€"
+    }
+}

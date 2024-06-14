@@ -1,0 +1,108 @@
+/* home.css */
+.home {
+    font-family: Arial, sans-serif;
+  }
+  .container h1{
+    font-family: 'customeRegular2';
+  }
+  
+  .banner {
+    background: url('/img/chirurgie.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .banner .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .banner .shop-now {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .categories {
+    padding: 50px 0;
+  }
+  
+  .categories .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .categories h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .category-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .category-item {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+  
+  .category-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .category-item h3 {
+    margin-top: 10px;
+  }
+  
+  .testimonials {
+    padding: 50px 0;
+  }
+  
+  .testimonials .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .testimonial-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .testimonial-item {
+    flex: 1 1 300px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

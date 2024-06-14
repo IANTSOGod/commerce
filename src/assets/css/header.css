@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+}
+.header {
+  background-color: #4200ad;
+  color: white;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img.cat-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.logo .labell{
+  font-family: 'customCursive';
+  font-size: 50px;
+}
+
+/* Styles de base pour la navigation */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3205ba;
+  padding: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-family: 'customCursive';
+  font-size: 30px;
+}
+
+.nav .special_a {
+  position: relative;
+}
+
+.nav .count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+.nav .special_link {
+  font-weight: bold;
+}
+
+.menu-btn {
+  display: none; /* Masquer le bouton de menu par défaut */
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav ul .special_link{
+    display: none;
+  }
+}

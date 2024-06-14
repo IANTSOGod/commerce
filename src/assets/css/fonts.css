@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'customRegular';
+    src: url("../fonts/MotionPicture_PersonalUseOnly.ttf") format('truetype');
+}
+@font-face{
+    font-family: 'customCursive';
+    src: url("../fonts/RemachineScript_Personal_Use.ttf") format('truetype');
+}
+@font-face{
+    font-family: 'customeRegular2';
+    src: url("../fonts/AlexBrush-Regular.ttf") format('truetype');
+}
+@font-face{
+    font-family: 'customRegular3';
+    src: url("../fonts/GreatVibes-Regular.ttf") format('truetype');
+}

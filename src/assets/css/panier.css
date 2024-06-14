@@ -1,0 +1,83 @@
+/* panier.css */
+
+/* Style de base pour le conteneur de la page Panier */
+.panier-container {
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-inline: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style pour le titre principal */
+  .panier-container h1 {
+    font-size: 2.5rem;
+    color: #4f3aa9;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour le texte de compte des articles */
+  .panier-container p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour le message du panier vide */
+  .panier-container .empty-message {
+    font-size: 1.5rem;
+    color: #888;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Style pour la liste des articles du panier */
+  .panier-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px;
+  }
+  
+  /* Style pour chaque élément de la liste des articles */
+  .panier-container li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .panier-container li:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Style pour l'image des articles */
+  .panier-container li img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  /* Style pour le contenu textuel des articles */
+  .panier-container li h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .panier-container li p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  

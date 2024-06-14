@@ -1,0 +1,27 @@
+table{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-inline: auto; 
+}
+table, td {
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.titre{
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+    font-family: 'customeRegular2';
+    font-size: 50px;
+}
+.component{
+    font-size: 30px;
+}
+.component:hover {
+    color: red;
+}
